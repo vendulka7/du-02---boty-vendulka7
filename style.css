@@ -25,6 +25,7 @@ body {
     max-width: 670px;
     min-height: 440px;
     margin: auto;
+    
 }
 
 .vizual {
@@ -32,6 +33,9 @@ body {
     border-radius: 30px 0px 0px 30px;
     float: left;
     position: relative;
+    max-width: 335px;
+    min-height: 220px;
+    
 }
 
 .logo {
@@ -51,13 +55,12 @@ body {
 
 
 .bota {
-
+    float: right;
 
 }
 
 .cenovka {
     color: white;
-    margin-top: -75px;
     }
 
 .cena {
@@ -78,7 +81,9 @@ body {
 .detaily {
     border-radius: 0px 30px 30px 0px;
     position: relative;
-    
+    max-width: 335px;
+    min-height: 220px;
+    float: right;
 }
 
 h1 {
@@ -95,11 +100,15 @@ h2,
 
 .produkt {
     color: #959595 ;
+    margin: 30px;
 }
 
 .popis {
-    padding: 10px;
-    
+    margin: 30px;
+}
+
+.parametr {
+    margin: 30px;
 }
 
 .velikosti {
@@ -109,6 +118,7 @@ h2,
 .velikosti li {
     display:inline-block;
     margin-right: 15px;
+    margin-bottom: 50px;
 }
 
 .vybrana {
@@ -118,10 +128,15 @@ h2,
 }
 
 a.tlacitko {
+    margin: 30px;
     padding: 10px 25px;
     background-color: #f15f42;
     color: white;
     border-radius: 5px;
-    bottom: 30px;
+    
 }
 
+hr {
+    border-top: 2px solid #06d7c1;
+    margin: 30px;
+  }
